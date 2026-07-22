@@ -1,2 +1,8 @@
 node_modules
 .DS_Store
+
+# Server local env and persisted Stripe IDs
+server/node/.env
+server/node/data/*.json
+!server/node/data/.gitkeep
+npm-debug.log*
